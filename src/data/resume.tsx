@@ -7,8 +7,8 @@ export const DATA = {
   url: "https://dillion.io",
   location: "Tasgaon, Maharashtra, India",
   locationLink: "https://maps.app.goo.gl/F8N8JR8vFuq1PfDeA",
-  // description:
-  //   "Hey,I'm a software engineer with a strong background in full-stack and mobile app development",
+  description:
+    "Hey I am Pranav Patil,I'm a software engineer with a strong background in full-stack and mobile app development",
   summary:
     "I'm a passionate Software Engineer. I've worked in 2+ startups where I collaborated directly with founders, leading and shipping end-to-end projects independently. My experience includes building high-impact applications, improving user engagement, and optimizing backend performance. I've developed projects using Flutter, Next.js, Redux, and more. Alongside my tech journey, I also pursue farming. Currently, I'm pursuing an MCA degree while continuing to explore new technologies and remain curious about learning. Always eager to build, learn, and innovate!",
   avatarUrl: "/meee.jpg",
