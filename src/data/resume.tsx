@@ -4,7 +4,7 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Prnv Patil",
   initials: "PP",
-  url: "https://dillion.io",
+  url: "https://www.prnv.space/",
   location: "Tasgaon, Maharashtra, India",
   locationLink: "https://maps.app.goo.gl/F8N8JR8vFuq1PfDeA",
   description:
