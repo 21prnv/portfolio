@@ -57,8 +57,8 @@ export const DATA = {
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "hello@example.com",
-    tel: "+123456789",
+    email: "pranavpatil6251@gmail.com",
+    tel: "+918261009460",
     social: {
       GitHub: {
         name: "GitHub",
@@ -98,13 +98,13 @@ export const DATA = {
 
   work: [
     {
-      company: " ZiTi",
+      company: "ZiTi",
       href: "https://atomic.finance",
       badges: [],
       location: "Remote",
       title: "Founding Engineer",
       logoUrl: "https://letsziti.com/assets/images/ziti_logo.png",
-      start: "Nov 2024",
+      start: "Nov 2023",
       end: "Present",
       description:
         "Developed a business application using Flutter to facilitate job posting for thousands of gig workers.Enhanced gig worker experience by implementing features allowing for job check-ins/checkouts and real-time location tracking, resulting in a 25% improvement.Built a CI/CD pipeline reducing deployment time by 40%.",
