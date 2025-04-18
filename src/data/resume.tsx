@@ -99,7 +99,7 @@ export const DATA = {
   work: [
     {
       company: "ZiTi",
-      href: "https://atomic.finance",
+      href: "https://letsziti.com/",
       badges: [],
       location: "Remote",
       title: "Founding Engineer",
@@ -112,7 +112,7 @@ export const DATA = {
     {
       company: "Code Help ",
       badges: [],
-      href: "https://shopify.com",
+      href: "https://www.codehelp.in/",
       location: "Remote",
       title: "Technical Content Writer",
       logoUrl:
@@ -124,7 +124,7 @@ export const DATA = {
     },
     {
       company: "TarotIt",
-      href: "https://nvidia.com/",
+      href: "https://tarotit.com/",
       badges: [],
       location: "Remote",
       title: "Flutter Developer Intern",
@@ -137,7 +137,7 @@ export const DATA = {
     },
     {
       company: "Tripo Saints",
-      href: "https://splunk.com",
+      href: "https://triposaints.com/",
       badges: [],
       location: "Remote",
       title: "Software Developer",
