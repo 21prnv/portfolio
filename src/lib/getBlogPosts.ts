@@ -1,3 +1,5 @@
+import { MOBILE_FRAMEWORK } from "@/lib/mobileFramework";
+
 export async function getBlogPosts() {
   return [
     {
@@ -14,23 +16,22 @@ export async function getBlogPosts() {
     {
       slug: "react-performance-optimization",
       metadata: {
-        title:
-          "Internationalization and Localization In Flutter Stacked Framework",
+        title: `Internationalization and Localization In ${MOBILE_FRAMEWORK} Stacked Framework`,
         publishedAt: "Apr 24, 2024",
         readingTime: "6 min read",
         summary:
-          "Learn how to implement internationalization and localization in your Flutter app using the Stacked framework.",
+          `Learn how to implement internationalization and localization in your ${MOBILE_FRAMEWORK} app using the Stacked framework.`,
         url: "https://medium.com/@pranavpatil6251/internationalization-and-localization-in-flutter-stacked-framework-03dcac22035f",
       },
     },
     {
       slug: "getting-started-with-typescript",
       metadata: {
-        title: "Simple And Advanced JSON Serialization In Flutter!",
+        title: `Simple And Advanced JSON Serialization In ${MOBILE_FRAMEWORK}!`,
         publishedAt: "Jan 4, 2024",
         readingTime: "4 min read",
         summary:
-          "Learn how to use JSON serialization in Flutter for efficient data handling.",
+          `Learn how to use JSON serialization in ${MOBILE_FRAMEWORK} for efficient data handling.`,
         url: "https://medium.com/@pranavpatil6251/simple-and-advanced-json-serialization-in-flutter-00dd93c9a2fe",
       },
     },

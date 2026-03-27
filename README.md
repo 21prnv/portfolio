@@ -38,6 +38,9 @@
 
 5. Open the [Config file](./src/data/resume.tsx) and make changes
 
+6. (Optional) To switch `Flutter` <-> `React Native` text site-wide, set `NEXT_PUBLIC_USE_REACT_NATIVE=true` in your `.env.local` (defaults to Flutter when unset).
+7. (Optional) To switch `Dart` <-> `Javascript` text site-wide, set `NEXT_PUBLIC_USE_JAVASCRIPT_INSTEAD_OF_DART=true` in your `.env.local` (defaults to Dart when unset).
+
 # License
 
 Licensed under the [MIT license](https://github.com/21prnv/portfolio/blob/main/LICENSE).

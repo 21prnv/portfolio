@@ -1,5 +1,6 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
+import { MOBILE_FRAMEWORK, MOBILE_LANGUAGE } from "@/lib/mobileFramework";
 
 export const DATA = {
   name: "Prnv Patil",
@@ -10,7 +11,7 @@ export const DATA = {
   description:
     "Hey I am Pranav Patil,I'm a software engineer with a strong background in full-stack and mobile app development",
   summary:
-    "I'm a passionate Software Engineer. I've worked in 2+ startups where I collaborated directly with founders, leading and shipping end-to-end projects independently. My experience includes building high-impact applications, improving user engagement, and optimizing backend performance. I've developed projects using Flutter, Next.js, Redux, and more. Alongside my tech journey, I also pursue farming. Currently, I'm pursuing an MCA degree while continuing to explore new technologies and remain curious about learning. Always eager to build, learn, and innovate!",
+    `I'm a passionate Software Engineer. I've worked in 2+ startups where I collaborated directly with founders, leading and shipping end-to-end projects independently. My experience includes building high-impact applications, improving user engagement, and optimizing backend performance. I've developed projects using ${MOBILE_FRAMEWORK}, Next.js, Redux, and more. Alongside my tech journey, I also pursue farming. Currently, I'm pursuing an MCA degree while continuing to explore new technologies and remain curious about learning. Always eager to build, learn, and innovate!`,
   avatarUrl: "/meee.jpg",
   skills: [
     "React",
@@ -42,8 +43,8 @@ export const DATA = {
     "Styled Components",
     "Saas",
     "Vite",
-    "Dart",
-    "Flutter",
+    MOBILE_LANGUAGE,
+    MOBILE_FRAMEWORK,
     "Python",
     "FastAPI",
     "Postgres",
@@ -98,16 +99,28 @@ export const DATA = {
 
   work: [
     {
+      company: "BiorLabs",
+      href: "",
+      badges: [],
+      location: "Canada · Remote",
+      title: "Software Engineer",
+      logoUrl: "/biorlabs.png",
+      start: "Apr 2025",
+      end: "Present",
+      description:
+        `At BiorBank, I lead a team of 4 developers and helped architect a production-grade multi-chain mobile wallet and backend platform supporting 20+ blockchains across EVM, Bitcoin, Solana, Cosmos, and Polkadot. I implemented HD wallet flows (BIP39), secure imports, cross-chain swaps, send/receive security, DeFi and P2P modules, AI-powered in-app assistance, and robust backend transaction lifecycle services with BullMQ, Redis, and real-time notifications. I also built admin KPI and campaign tooling, while delivering frontend features with React 18 and Redux.`,
+    },
+    {
       company: "ZiTi",
       href: "https://letsziti.com/",
       badges: [],
       location: "Remote",
       title: "Founding Engineer",
-      logoUrl: "https://letsziti.com/assets/images/ziti_logo.png",
+      logoUrl: "/ziti.webp",
       start: "Nov 2023",
       end: "Present",
       description:
-        "Developed a business application using Flutter to facilitate job posting for thousands of gig workers.Enhanced gig worker experience by implementing features allowing for job check-ins/checkouts and real-time location tracking, resulting in a 25% improvement.Built a CI/CD pipeline reducing deployment time by 40%.",
+        `Developed a business application using ${MOBILE_FRAMEWORK} to facilitate job posting for thousands of gig workers.Enhanced gig worker experience by implementing features allowing for job check-ins/checkouts and real-time location tracking, resulting in a 25% improvement.Built a CI/CD pipeline reducing deployment time by 40%.`,
     },
     {
       company: "Code Help ",
@@ -115,8 +128,7 @@ export const DATA = {
       href: "https://www.codehelp.in/",
       location: "Remote",
       title: "Technical Content Writer",
-      logoUrl:
-        "https://www.codehelp.in/_next/image?url=%2Fassets%2FCommon%2FWhitelogoGIF.gif&w=640&q=75",
+      logoUrl: "/codehelp.png",
       start: "Jan 2024",
       end: "Oct 2024",
       description:
@@ -127,13 +139,12 @@ export const DATA = {
       href: "https://tarotit.com/",
       badges: [],
       location: "Remote",
-      title: "Flutter Developer Intern",
-      logoUrl:
-        "https://media.licdn.com/dms/image/v2/D560BAQEivupdbhcu1A/company-logo_200_200/company-logo_200_200/0/1715098662571/tarotit_logo?e=1748476800&v=beta&t=B_4EJZSK07WuTE-BEswZR8LBacV4rGjXVAjYZI2BSfk",
+      title: `${MOBILE_FRAMEWORK} Developer Intern`,
+      logoUrl: "/tarotit.jpg",
       start: "Jul 2023",
       end: "Nov 2023",
       description:
-        "I collaborated closely with backend developers to seamlessly integrate APIs into the Flutter application, and developed a user-friendly interface for a Tarot card reading feature that allows users to input questions or problems and receive accurate Tarot card suggestions. Additionally, I implemented responsive design principles to ensure an optimal user experience across various devices.",
+        `I collaborated closely with backend developers to seamlessly integrate APIs into the ${MOBILE_FRAMEWORK} application, and developed a user-friendly interface for a Tarot card reading feature that allows users to input questions or problems and receive accurate Tarot card suggestions. Additionally, I implemented responsive design principles to ensure an optimal user experience across various devices.`,
     },
     {
       company: "Tripo Saints",
@@ -141,12 +152,11 @@ export const DATA = {
       badges: [],
       location: "Remote",
       title: "Software Developer",
-      logoUrl:
-        "https://triposaints.com/wp-content/uploads/2022/10/cropped-1-removebg-preview-2.png",
+      logoUrl: "/tripo-saints.png",
       start: "Mar 2023",
       end: "Jun 2023",
       description:
-        "I implemented GraphQL for data optimization in web and mobile applications, enhancing processing speed by 20%, and leveraged Flutter, resulting in a 15% increase in user satisfaction and engagement. Additionally, I created over 15 responsive pages and components using React.js and Tailwind CSS. I also crafted unit tests using Jest to ensure 100% test coverage and built a CI/CD pipeline that reduced deployment time by 80%.",
+        `I implemented GraphQL for data optimization in web and mobile applications, enhancing processing speed by 20%, and leveraged ${MOBILE_FRAMEWORK}, resulting in a 15% increase in user satisfaction and engagement. Additionally, I created over 15 responsive pages and components using React.js and Tailwind CSS. I also crafted unit tests using Jest to ensure 100% test coverage and built a CI/CD pipeline that reduced deployment time by 80%.`,
     },
   ],
   education: [
@@ -262,7 +272,13 @@ export const DATA = {
       active: true,
       description:
         "Scroll Guard helps you manage your social media time by limiting your usage. Utilizing Android's Accessibility Service, we aim to free you from endless scrolling, allowing you to focus on what really matters.",
-      technologies: ["Flutter", "Kotlin", "Dart", "Android", "Java"],
+      technologies: [
+        MOBILE_FRAMEWORK,
+        "Kotlin",
+        MOBILE_LANGUAGE,
+        "Android",
+        "Java",
+      ],
       links: [
         {
           type: "App",
@@ -282,9 +298,9 @@ export const DATA = {
       description:
         "We believe strong relationships are built on connection, laughter, and shared experiences. That's why we created Togethrly - an app designed to help couples deepen their bond. With playful quizzes, shared widget, thought-provoking prompts and a more engaging and fun video calling experience.",
       technologies: [
-        "Flutter",
+        MOBILE_FRAMEWORK,
         "Kotlin",
-        "Dart",
+        MOBILE_LANGUAGE,
         "Android",
         "Java",
         "Supabase",
