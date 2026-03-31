@@ -120,7 +120,7 @@ export const DATA = {
       start: "Nov 2023",
       end: "Present",
       description:
-        `Developed a business application using ${MOBILE_FRAMEWORK} to facilitate job posting for thousands of gig workers.Enhanced gig worker experience by implementing features allowing for job check-ins/checkouts and real-time location tracking, resulting in a 25% improvement.Built a CI/CD pipeline reducing deployment time by 40%.`,
+        "Developed a business application using Flutter to facilitate job posting for thousands of gig workers.Enhanced gig worker experience by implementing features allowing for job check-ins/checkouts and real-time location tracking, resulting in a 25% improvement.Built a CI/CD pipeline reducing deployment time by 40%.",
     },
     {
       company: "Code Help ",
