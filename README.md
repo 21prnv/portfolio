@@ -45,4 +45,4 @@ Licensed under the [MIT license](https://github.com/21prnv/portfolio/blob/main/L
 
 ---
 
-**Build by prnv**
+**Built by pranav**
